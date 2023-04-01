@@ -15,6 +15,7 @@
     background-color: rgba(0, 0, 0, 0.144);
     position: fixed;
     backdrop-filter: blur(2px);
+    filter: drop-shadow(1px 0px 2px #262626);
 
 }
 
@@ -40,6 +41,7 @@
 .nav-sections {
     display: flex;
     align-items: center;
+    filter: drop-shadow(1px 0px 1px #262626);
 }
 
 .logo h1 {
@@ -66,16 +68,19 @@
 #search {
     width: 60%;
     padding: 20px;
-    border: 5px solid rgba(0, 0, 0, 0.384);
+    border: 2px solid rgba(0, 0, 0, 0.384);
     border-radius: 100px;
-    background-color: rgba(10, 218, 218, 0.307);
+    /* background-color: rgba(10, 218, 218, 0.307); */
+    background-color: rgba(0, 0, 0, 0.144);
     /* text-align: center; */
     font-size: 20px;
     font-weight: bold;
     backdrop-filter: blur(2px);
+    outline: none;
 
 
 }
+
 ::placeholder {
     color: rgba(0, 0, 0, 0.637);
   }
