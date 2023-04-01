@@ -14,6 +14,8 @@
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.144);
     position: fixed;
+    backdrop-filter: blur(2px);
+
 }
 
 .nav-sections ul {
@@ -66,10 +68,12 @@
     padding: 20px;
     border: 5px solid rgba(0, 0, 0, 0.384);
     border-radius: 100px;
-    background-color: rgba(10, 218, 218, 0.507);
+    background-color: rgba(10, 218, 218, 0.307);
     /* text-align: center; */
     font-size: 20px;
     font-weight: bold;
+    backdrop-filter: blur(2px);
+
 
 }
 ::placeholder {
