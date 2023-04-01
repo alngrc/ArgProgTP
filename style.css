@@ -4,17 +4,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: auto;
+    
 }
 .nav-bar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.144);
+    position:fixed;
+    
+    
 }
 .nav-sections ul {
     display: flex;
     list-style-type: none;
+    
 }
 .nav-sections ul li a {
     text-decoration: none;
@@ -22,22 +27,28 @@
     padding: 20px;
     font-weight: bolder;
     font-size: 20px;
+    
 }
 #bot {
     width: 4em;
     background: none;
+    
 }
 .logo, .nav-sections {
     display: flex;
     align-items: center;
+    
 }
 .logo h1 {
     padding: 10px 20px;
     color: black;
+    
 }
 #home {
-    background-image: url(../ArgProgTP/img/home-back.jpg);
-    background-color: #cccccc;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/home-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
