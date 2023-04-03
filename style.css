@@ -90,6 +90,7 @@
     transition: all 1s;
 }
 
+
 .oculto {
     opacity: 0;
 }
@@ -104,11 +105,12 @@
     height: 100vh;
 }
 #abt-text {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 8em;
+    top: 6em
 }
 #abt-text h1 {
     font-size: 32px;
@@ -128,4 +130,13 @@
 }
 .abt-int {
     padding: 4em;
+}
+.abt-int:nth-child(2) {
+    transition-delay: 300ms;
+}
+.abt-int:nth-child(3) {
+    transition-delay: 600ms;
+}
+.abt-int:nth-child(4) {
+    transition-delay: 900ms;
 }
