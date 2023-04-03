@@ -122,17 +122,16 @@ html {
     padding: 20px;
 }
 #abt-text h2 {
-    font-size: 12px;
-    width: 60%;
-
-}
+    font-size: 17px;
+    width: 45%;
+  } 
 #abt-ints {
     display: flex;
     justify-content: space-between;
 }
 #abt-ints img {
-    width: 10em;
-}
+    width: 18em;
+  } 
 .abt-int {
     padding: 4em;
 }
