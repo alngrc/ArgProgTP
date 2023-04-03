@@ -136,6 +136,14 @@ html {
 .abt-int {
     padding: 4em;
 }
+.abt-int img {
+    transition-delay: 0ms;
+    transition: all 1s;
+
+}
+.abt-int img:hover {
+    transform: scale(1.1);
+}
 .abt-int:nth-child(2) {
     transition-delay: 300ms;
 }
