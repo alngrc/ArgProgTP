@@ -87,11 +87,11 @@
 .anim1 {
     filter: blur(3px);
     transform: translateX(100%);
+    transition: all 1s;
 }
 
 .oculto {
     opacity: 0;
-    transition: all 1s;
 }
 .mostrar {
     opacity: 1;
@@ -108,6 +108,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 8em;
 }
 #abt-text h1 {
     font-size: 32px;
@@ -117,4 +118,14 @@
     font-size: 12px;
     width: 60%;
 
+}
+#abt-ints {
+    display: flex;
+    justify-content: space-between;
+}
+#abt-ints img {
+    width: 10em;
+}
+.abt-int {
+    padding: 4em;
 }
