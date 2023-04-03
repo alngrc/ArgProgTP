@@ -96,6 +96,7 @@ html {
 
 .oculto {
     opacity: 0;
+    overflow: hidden;
 }
 .mostrar {
     opacity: 1;
