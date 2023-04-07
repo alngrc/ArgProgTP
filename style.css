@@ -91,6 +91,9 @@ html {
     filter: blur(3px);
     transform: translateX(100%);
     transition: all 1s;
+    position: relative;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -107,7 +110,7 @@ html {
 #about {
     width: 100%;
     height: 100vh;
-    background-color: #262626;
+    background-color: white;
 }
 #abt-text {
     position: relative;
@@ -128,6 +131,7 @@ html {
 #abt-ints {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 #abt-ints img {
     width: 18em;
