@@ -3,6 +3,49 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* Barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento */
+  
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #001aff;
+  
+  
+  }
+  
+  /* Pista de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background-color: #b701ff;
+    /* Color de fondo de la pista de la barra de desplazamiento */
+    box-shadow: inset 0px 0px 20px rgb(255, 255, 255);
+  
+  }
+  
+  /* Pulgar de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #0084ff;
+    /* Color del pulgar de la barra de desplazamiento */
+    box-shadow: inset 0px 0px 20px rgb(2, 252, 239);
+  
+  }
+  
+  /* Esquina de la barra de desplazamiento */
+  ::-webkit-scrollbar-corner {
+    background-color: #f5f5f5;
+    /* Color de fondo de la esquina de la barra de desplazamiento */
+  }
+  
+  /* Botones de la barra de desplazamiento */
+  ::-webkit-scrollbar-button {
+    display: none;
+    /* Ocultar los botones de la barra de desplazamiento */
+  }
+
+
 * {
     font-family: "Noto Sans";
     box-sizing: border-box;
@@ -18,7 +61,8 @@ html {
     background-color: rgba(0, 0, 0, 0.144);
     position: fixed;
     backdrop-filter: blur(2px);
-    filter: drop-shadow(1px 0px 2px #262626);
+    filter: drop-shadow(1px 0px 2px #ffffff);
+    z-index: 435;
 
 }
 
@@ -29,10 +73,12 @@ html {
 
 .nav-sections ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-weight: bolder;
     font-size: 20px;
+    
+
 }
 
 #bot {
@@ -45,6 +91,7 @@ html {
     display: flex;
     align-items: center;
     filter: drop-shadow(1px 0px 1px #262626);
+    
 }
 
 .logo h1 {
@@ -107,10 +154,15 @@ html {
     transform: translateX(0);
 }
 
+/* about */
+
 #about {
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-image: url('img/bg-about.png');
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #abt-text {
     position: relative;
@@ -142,6 +194,9 @@ html {
 .abt-int img {
     transition-delay: 0ms;
     transition: all 1s;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 
 }
 .abt-int img:hover {
@@ -156,4 +211,43 @@ html {
 .abt-int:nth-child(4) {
     transition-delay: 900ms;
 }
+
+/* Contact Us */
+
+#contact-us{
+    background-image: url('img/test.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}  
+
+#contact-us{
+    padding: 100px;
+}
+
+#titulo-contacto{
+    justify-content: center;
+    margin: auto;
+    background-color: gray;
+    opacity: 80%;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 600px;
+    margin-bottom: 10%;
+    }
+
+#titulito{
+    padding-left: 1%;
+    background-color: lightblue;
+    opacity: 75%;
+    border: 1px black;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+  
+}
+
 

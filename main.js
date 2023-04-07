@@ -11,3 +11,10 @@ const observ = new IntersectionObserver((entries) => {
 
 const elementosOcultos = document.querySelectorAll('.oculto');
 elementosOcultos.forEach((el) => observ.observe(el));
+
+
+let mail = document.getElementById('#mail').value;
+function sendMail() {
+    window.open(`mailto:${mail}`);
+
+}
