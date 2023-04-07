@@ -6,38 +6,29 @@ html {
 
 /* Barra de desplazamiento */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 11px;
     /* Ancho de la barra de desplazamiento */
   
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #001aff;
+    background-color: #00eeff;
+    filter: brightness(190%);
+
+
+}
   
-  
-  }
-  
-  /* Pista de la barra de desplazamiento */
-  ::-webkit-scrollbar-track {
-    background-color: #b701ff;
-    /* Color de fondo de la pista de la barra de desplazamiento */
-    box-shadow: inset 0px 0px 20px rgb(255, 255, 255);
-  
-  }
   
   /* Pulgar de la barra de desplazamiento */
   ::-webkit-scrollbar-thumb {
-    background-color: #0084ff;
+    background-color: rgb(0, 132, 255);
     /* Color del pulgar de la barra de desplazamiento */
-    box-shadow: inset 0px 0px 20px rgb(2, 252, 239);
+    /* box-shadow: inset 0px 0px 20px rgb(2, 19, 252); */
+    filter: brightness(10%);
+
   
   }
   
-  /* Esquina de la barra de desplazamiento */
-  ::-webkit-scrollbar-corner {
-    background-color: #f5f5f5;
-    /* Color de fondo de la esquina de la barra de desplazamiento */
-  }
   
   /* Botones de la barra de desplazamiento */
   ::-webkit-scrollbar-button {
@@ -215,7 +206,7 @@ html {
 /* Contact Us */
 
 #contact-us{
-    background-image: url('img/test.jpg');
+    background-image: url('img/hexagono.png');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
