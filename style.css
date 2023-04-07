@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,33 +9,34 @@ html {
 ::-webkit-scrollbar {
     width: 11px;
     /* Ancho de la barra de desplazamiento */
-  
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #00eeff;
+    background-color: rgb(225, 150, 255);
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ae00ff;
     filter: brightness(190%);
 
 
 }
-  
-  
-  /* Pulgar de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
-    background-color: rgb(0, 132, 255);
+
+
+/* Pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(152, 72, 255);
     /* Color del pulgar de la barra de desplazamiento */
     /* box-shadow: inset 0px 0px 20px rgb(2, 19, 252); */
     filter: brightness(10%);
 
-  
-  }
-  
-  
-  /* Botones de la barra de desplazamiento */
-  ::-webkit-scrollbar-button {
+
+}
+
+
+/* Botones de la barra de desplazamiento */
+::-webkit-scrollbar-button {
     display: none;
     /* Ocultar los botones de la barra de desplazamiento */
-  }
+}
 
 
 * {
@@ -68,7 +70,7 @@ html {
     padding: 20px;
     font-weight: bolder;
     font-size: 20px;
-    
+
 
 }
 
@@ -82,7 +84,7 @@ html {
     display: flex;
     align-items: center;
     filter: drop-shadow(1px 0px 1px #262626);
-    
+
 }
 
 .logo h1 {
@@ -124,7 +126,8 @@ html {
 
 ::placeholder {
     color: rgba(0, 0, 0, 0.637);
-  }
+}
+
 .anim1 {
     filter: blur(3px);
     transform: translateX(100%);
@@ -139,6 +142,7 @@ html {
     opacity: 0;
     overflow: hidden;
 }
+
 .mostrar {
     opacity: 1;
     filter: blur(0);
@@ -155,6 +159,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #abt-text {
     position: relative;
     display: flex;
@@ -163,25 +168,31 @@ html {
     align-items: center;
     top: 6em
 }
+
 #abt-text h1 {
     font-size: 32px;
     padding: 20px;
 }
+
 #abt-text h2 {
     font-size: 17px;
     width: 45%;
-  } 
+}
+
 #abt-ints {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
 }
+
 #abt-ints img {
     width: 18em;
-  } 
+}
+
 .abt-int {
     padding: 4em;
 }
+
 .abt-int img {
     transition-delay: 0ms;
     transition: all 1s;
@@ -190,64 +201,80 @@ html {
     height: 300px;
 
 }
+
 .abt-int img:hover {
     transform: scale(1.1);
 }
+
 .abt-int:nth-child(2) {
     transition-delay: 300ms;
 }
+
 .abt-int:nth-child(3) {
     transition-delay: 600ms;
 }
+
 .abt-int:nth-child(4) {
     transition-delay: 900ms;
 }
 
 /* Contact Us */
 
-#contact-us{
+#contact-us {
     background-image: url('img/circuito.jpeg');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 0;
-    border: grey 3px;
-}  
-
-#contact-us{
     padding: 100px;
 }
 
-#titulo-contacto{
-    justify-content: center;
+
+#contenido {
+    background-color: rgba(128, 128, 128, 0.274);
+    backdrop-filter: blur(5px);
+    height: 700px;
+
+
+}
+
+
+#titulo-contacto {
     margin: auto;
-    background-color: gray;
+    background-color: rgba(166, 152, 247, 0.671);
+    margin-top: 10px;
     opacity: 80%;
     border: 1px solid black;
     width: 100%;
     border-radius: 20px 20px 20px 20px;
     max-width: 600px;
     margin-bottom: 10%;
-    }
+}
 
-#titulito{
-    padding-left: 1%;
-    background-color: lightblue;
+#titulito {
+    background-color: rgba(166, 152, 247, 0.671);
+    inline-size: 1000px;
     opacity: 75%;
     border: 1px black;
     border-style: groove;
     border-radius: 20px 20px 20px 20px;
-  
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputs{
+    
+    
 }
 
 #footer {
     display: flex;
-    background-color:rgba(0, 0, 0, 0.244);
+    background-color: rgba(0, 0, 0, 0.244);
     /* position:relative; */
-    bottom:0;
+    bottom: 0;
     width: 100%;
+    height: 500px;
 }
-
-
