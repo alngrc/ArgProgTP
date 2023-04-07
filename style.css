@@ -150,7 +150,7 @@ html {
 #about {
     width: 100%;
     height: 100vh;
-    background-image: url('img/bg-about.png');
+    background-image: url('img/bg-about1.jpg');
     margin-top: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,13 +206,14 @@ html {
 /* Contact Us */
 
 #contact-us{
-    background-image: url('img/hexagono.png');
+    background-image: url('img/circuito.jpeg');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     padding: 0;
+    border: grey 3px;
 }  
 
 #contact-us{
@@ -239,6 +240,14 @@ html {
     border-style: groove;
     border-radius: 20px 20px 20px 20px;
   
+}
+
+#footer {
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.244);
+    /* position:relative; */
+    bottom:0;
+    width: 100%;
 }
 
 
